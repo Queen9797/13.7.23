@@ -1,19 +1,38 @@
-span {
-    color: aqua;
-}
-.my-class{
-    color:red;
-}
-span.my-class{
-    color: yellow;
-}
-
-span[name="thats-me"]{
-    color:blue;
-}
-#try-me{
-    color:aquamarine;
-}
-span:hover{
-    color: purple;
-}
+         /* per type  */
+         span {
+            color: aqua;
+        }
+        h3{
+            color: rgb(151, 151, 185);
+        }
+         /* class  */
+        .my-class{
+            color:red;
+        }
+        span.my-class{
+            color: yellow;
+        }
+       /* type + attribute */
+        span[name="thats-me"]{
+            color:blue;
+            text-transform: uppercase;
+        }
+        /* id */
+        #try-me{
+            color:aquamarine;
+        }
+     span:hover{
+            color: purple;
+        }
+        input[type=color] {
+        width: 300px;
+        }
+        /*tag in tag */
+        p span {
+        color: red;
+        }
+        /*a option */
+        a:link {color: #000000}
+        a:visited {color: #91bc91}
+        a:hover {color: #FFCC00}
+        a:active {color: #FF00CC}
