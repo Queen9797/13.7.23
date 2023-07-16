@@ -1,0 +1,19 @@
+span {
+    color: aqua;
+}
+.my-class{
+    color:red;
+}
+span.my-class{
+    color: yellow;
+}
+
+span[name="thats-me"]{
+    color:blue;
+}
+#try-me{
+    color:aquamarine;
+}
+span:hover{
+    color: purple;
+}
