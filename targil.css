@@ -17,14 +17,13 @@ h1 {
 div h1{
         background-color: rgb(173, 228, 228);
         color: green;
+        
 }
 
  div h1:hover{ 
     background-color: yellow;
     color: black;
 }
-
-
 
 div.p { 
     background-clip: padding-box;

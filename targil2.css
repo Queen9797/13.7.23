@@ -1,0 +1,16 @@
+
+div{
+    margin: 25px;
+    border:1px black solid;
+    background-color: yellow;
+    width: 100px;
+    height: 150px;
+    float:left
+}
+
+ul{
+    border:3px red solid;
+    background-color:#0026f5;
+    margin-top: 0px;
+}
+
