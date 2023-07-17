@@ -1,0 +1,48 @@
+h1 {
+    background-color: rgb(173, 228, 228);
+    background-size: contain;
+    color: green;
+    margin-bottom: -18px ;
+    margin-right: 900px ;
+    border-top:4px dashed red ;
+    border-right: 4px dashed green;
+    border-left: 4px dashed purple;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    padding: 3px;
+    Background-clip: padding-box
+      
+}
+
+div h1{
+        background-color: rgb(173, 228, 228);
+        color: green;
+}
+
+ div h1:hover{ 
+    background-color: yellow;
+    color: black;
+}
+
+
+
+div.p { 
+    background-clip: padding-box;
+    border-right: 4px dashed green;
+    border-left: 4px dashed purple; 
+    border-bottom: 4px dashed blue;
+    border-top: 0px solid ;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius:7px;
+    margin-right: 900px;
+    border-style:  dashed;   
+    background-color: rgba(209, 99, 40, 0.804);
+    color:rgb(240, 201, 61) 
+        
+}
+
+
+
+
+
+
